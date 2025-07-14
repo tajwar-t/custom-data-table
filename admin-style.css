@@ -1,0 +1,66 @@
+#cdt-cell-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.cdt-row {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+}
+
+.styled-cell {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  background: #f9f9f9;
+  min-width: 200px;
+  max-width: 250px;
+  box-shadow: 1px 1px 3px rgba(0,0,0,0.05);
+}
+
+.styled-cell label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 4px;
+}
+
+.styled-cell input[type="text"],
+.styled-cell textarea {
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 8px;
+}
+
+.styled-cell .cdt-preview img {
+  max-width: 100%;
+  border: 1px solid #ddd;
+  margin-top: 5px;
+  border-radius: 4px;
+}
+.cdt-image-group{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+button.button.select-cdt-image {
+    border: none;
+    color: #ffffff;
+    font-weight: 600;
+    background: #000000;
+}
+button.button.button-small.remove-cdt-image {
+    color: #ffffff;
+    border: none;
+    border-radius: 50%;
+    background: red;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+}
